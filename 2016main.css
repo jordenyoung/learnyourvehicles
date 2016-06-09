@@ -178,11 +178,9 @@
     }
     
     .morph:hover {
-        border: 40px solid rgba(255, 255, 255, 0);
-        /*border colour*/
-        border-radius: 30%;
-        /*border size*/
-    }
+        .grow { transition: all .2s ease-in-out; }
+         .grow:hover { transform: scale(1.1); 
+   }
     
     .fade {
         opacity: 1;
